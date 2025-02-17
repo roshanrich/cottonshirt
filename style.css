@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    padding-top: 150px;
+    gap: 70px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left h1{
+    font-size: 140px;
+    font-weight: 600;
+    font-family: work sans;
+    font-weight: 500;
+    line-height: 150px;
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(243, 140, 109, 0.61);
+    border-radius: 50%;
+    margin: 3px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#left p{
+    font-size: 20px;
+}
+#right{
+    height: 90%;
+    width: 38%;
+    /* background-color: blue; */
+    position: relative;
+}
+#right-top{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+#right-top h4{
+    font-family: work sans;
+    font-weight: 500;
+    font-size: 30px;
+}
+#right-top h5{
+    font-size: 16px;
+}
+#right-top h5  i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    object-fit: cover;
+}
+#dark{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-color: rgb(3, 3, 7);
+    color: white;
+    border-radius: 50%;
+    right: -16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24%;  
+}
+#dark h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+#rotated{
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
